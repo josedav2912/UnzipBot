@@ -11,9 +11,9 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 app = Client(
 	"UnzipBot",
-	api_id=Config.API_ID,
-	api_hash=Config.API_HASH,
-	bot_token=Config.BOT_TOKEN,
+	api_id=4680438,
+	api_hash="4f006822d68b21592c0b1e817019f6df",
+	bot_token="6532946914:AAGWw01eqCvsZctThvlS1XN9AmGHLNpHjNE",
 	plugins=dict(root="UnzipBot"),
 )
 
